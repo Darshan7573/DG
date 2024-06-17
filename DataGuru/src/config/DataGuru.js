@@ -2,7 +2,6 @@
 /* eslint-disable no-unused-vars */
 
 
-
 /*
  * Install the Generative AI SDK
  *
@@ -18,6 +17,7 @@ import {
     HarmBlockThreshold,
 } from "@google/generative-ai";
 
+//use Your apiKey
 const apiKey = "AIzaSyCYzMIrV7W22G3Ygik8ch3Rqclt_q - 23EE";
 const genAI = new GoogleGenerativeAI(apiKey);
 
