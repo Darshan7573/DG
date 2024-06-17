@@ -24,7 +24,7 @@
   border: none;
   border-radius: 18px;
   font-size: 15px;
-  background: url("../src/assets/Ai_Background.jpg");
+  background: url("../../assets/Ai_Background.jpg");
 }
 
 .main .nav button:hover {
@@ -100,7 +100,7 @@
 
 .main .card {
   color: white;
-  background: url("../src/assets/Ai_Background.jpg");
+  background: url("../../assets/Ai_Background.jpg");
   height: 200px;
   padding: 15px;
   background-color: #f0f4f9;

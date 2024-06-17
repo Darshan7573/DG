@@ -54,7 +54,7 @@ const Main = ({ setShowLogin }) => {
                             <div className='card'>
                                 <p>Find YouTube videos with inspiring best man speeches</p>
 
-                                <img onClick={() => { window.location.href = "https:www.youtube.com" }} src={assets.youtube_icon} alt='' />
+                                <img onClick={() => { window.location.href = "https://www.youtube.com" }} src={assets.youtube_icon} alt='' />
 
                             </div>
                             <div className='card'>

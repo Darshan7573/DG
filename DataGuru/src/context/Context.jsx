@@ -20,7 +20,7 @@ const ContextProvider = (props) => {
     const [loading, setLoading] = useState(false)
     const [resultData, setresultData] = useState("")
 
-    const url = "http://localhost:4000"
+    const url = "https://dg-vttc.onrender.com"
     //this token is coming from login.jsx file from axios
     const [token, setToken] = useState("")
 
