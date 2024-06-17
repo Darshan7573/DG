@@ -7,14 +7,14 @@ import 'dotenv/config'
 //app config
 
 const app = express()
-const port = 4000
+const port = process.env.PORT || 4000
 
 //middleware
 
 //used to when we get request from frontend
 app.use(express.json())
 //access the backend from frontend
-app.use(cors())
+app.use(cors('*'))
 
 
 //DB connection
