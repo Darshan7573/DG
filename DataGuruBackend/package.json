@@ -4,7 +4,6 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "install": "npm install",
     "server": "node server.js",
     "build": "echo 'No build step required'"
   },
